@@ -15,7 +15,8 @@ router.post('/comments/:id', verifyToken, async (req, res, next) => {
         const comment = {
             content: req.body.content,
             userId: req.user,
-            created_at: moment.tz(vnTimezone).format("YYYY-MM-DDTHH:mm:ss.SSS[Z]")
+            created_at: moment.tz(vnTimezone).format("YYYY-MM-DDTHH:mm:ss.SSS")
+            // created_at: moment.tz(vnTimezone).format("YYYY-MM-DDTHH:mm:ss.SSS[Z]")
         }
         console.log("comment", comment);
         idea.comments.push(comment)

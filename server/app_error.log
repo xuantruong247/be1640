@@ -619,3 +619,11 @@
 {"level":"error","message":"Sun Apr 09 2023 19:16:39 GMT+0700 (Indochina Time)-{\"name\":\"NOT FOUND\",\"statusCode\":404,\"isOperational\":true,\"errorStack\":\"Not found user\"}","private":true}
 {"level":"error","message":"Mon Apr 10 2023 02:53:29 GMT+0700 (Indochina Time)-{}","private":true}
 >>>>>>> 46142dfdb9982df087f4e1aabd9271d4acc339cc
+{"level":"error","message":"Mon Apr 10 2023 16:11:12 GMT+0700 (Indochina Time)-{}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 18:03:29 GMT+0700 (Indochina Time)-{}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 18:04:14 GMT+0700 (Indochina Time)-{}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 19:00:29 GMT+0700 (Indochina Time)-{}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 21:06:14 GMT+0700 (Indochina Time)-{\"name\":\"NOT FOUND\",\"statusCode\":400,\"isOperational\":true,\"errorStack\":\"Wrong username/password\"}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 21:06:26 GMT+0700 (Indochina Time)-{\"name\":\"NOT FOUND\",\"statusCode\":400,\"isOperational\":true,\"errorStack\":\"Wrong username/password\"}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 22:35:01 GMT+0700 (Indochina Time)-{\"name\":\"NOT FOUND\",\"statusCode\":400,\"isOperational\":true,\"errorStack\":\"Wrong username/password\"}","private":true}
+{"level":"error","message":"Mon Apr 10 2023 22:35:03 GMT+0700 (Indochina Time)-{\"name\":\"NOT FOUND\",\"statusCode\":400,\"isOperational\":true,\"errorStack\":\"Wrong username/password\"}","private":true}
