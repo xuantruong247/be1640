@@ -3,7 +3,7 @@ const router = express.Router()
 const { verifyToken } = require("../../middlewares/auth")
 const Idea = require('../../models/idea')
 const moment = require("moment-timezone")
-const vnTimezone = 'Asia/Ho_Chi_Minh';
+const vnTimezone = "Asia/Ho_Chi_Minh";
 
 const { BadRequestError } = require('../../utils/error-app')
 
@@ -15,7 +15,7 @@ router.post('/comments/:id', verifyToken, async (req, res, next) => {
         const comment = {
             content: req.body.content,
             userId: req.user,
-            created_at: moment().tz(vnTimezone).format("YYYY-MM-DDTHH:mm:ss.SSS[Z]")
+            created_at: moment.tz(vnTimezone).format("YYYY-MM-DDTHH:mm:ss.SSS[Z]")
         }
         console.log("comment", comment);
         idea.comments.push(comment)
